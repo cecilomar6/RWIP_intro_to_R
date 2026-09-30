@@ -111,17 +111,9 @@ starwars_data %>%
 
 
 # Group by homeworld and count number of eye color types in each
-
 starwars_data %>% 
   group_by(homeworld) %>%
   summarise(count = n_distinct(eye_color)) 
-
-# Group by homeworld and count number of eye color types in each
-
-starwars_data %>% 
-  group_by(homeworld) %>%
-  summarise(count = n_distinct(eye_color)) 
-
 
 
 
